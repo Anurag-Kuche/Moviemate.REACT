@@ -15,7 +15,7 @@ function Hero() {
             console.log(resp.data.results); // Log the response to check the structure
             setMovieList(resp.data.results);
         } catch (error) {
-            console.error("Error to fetch popular movies:", error);
+            console.error("Error in fetching popular movies:", error);
         }
     };
 
