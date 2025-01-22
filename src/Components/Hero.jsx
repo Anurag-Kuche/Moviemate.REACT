@@ -30,7 +30,7 @@ function Hero() {
                     alt="Hero Background"
                 />
             ) : (
-                <p>Loading...</p> // Display loading text if no data
+                <p>Loading...</p> // Display loading 
             )}
 
             <h1 className="text-2xl font-bold mb-4">Popular Movies</h1>
