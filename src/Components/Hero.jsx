@@ -27,7 +27,7 @@ function Hero() {
                     src={`${IMAGE_BASE_URL}${movieList[0]?.backdrop_path || '/default.jpg'}`} // Fallback if no backdrop_path
                     width={1920}
                     height={1080}
-                    alt="Hero Background"
+                    alt="Background"
                 />
             ) : (
                 <p>Loading...</p> 
