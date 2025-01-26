@@ -19,7 +19,6 @@ function Header() {
     <div className="flex justify-between items-center p-4 px-10">
       <img src={logo} className="w-[80px]" alt="logo" />
 
-      {/* Desktop Menu */}
       <ul className="hidden md:flex gap-8">
         {menu.map((item) => (
           <li 
