@@ -43,7 +43,7 @@ function Header() {
           {toggle ? <FaAngleUp className="ml-2 mt-1" /> : <FaAngleDown className="ml-2 mt-1" />}
         </div>
 
-        {/* Mobile Dropdown */}
+        
         {toggle && (
           <ul className="absolute bg-gray-800 p-4 rounded-md mt-2 w-[150px]">
             {menu.map((item) => (
