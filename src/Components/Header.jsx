@@ -33,7 +33,7 @@ function Header() {
 
       {/* Mobile Menu */}
       <div className="md:hidden">
-        {/* Bold Mobile Home Button with Toggle */}
+      
         <div 
           className={`flex items-center px-3 pb-2 py-1 cursor-pointer rounded-md 
           ${!toggle ? 'bg-gray-700 text-white font-bold' : 'text-gray-400'}`} 
