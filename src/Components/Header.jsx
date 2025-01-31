@@ -10,7 +10,7 @@ function Header() {
     { id: 1, name: 'Home' },
     { id: 2, name: 'Movies' },
     { id: 3, name: 'TV' },
-    { id: 4, name: 'Sports-event' },
+    { id: 4, name: 'Sports' },
     { id: 5, name: 'News' },
     { id: 6, name: 'Hubs' },
   ];
