@@ -12,7 +12,7 @@ function Header() {
     { id: 3, name: 'TV' },
     { id: 4, name: 'Sports' },
     { id: 5, name: 'News' },
-    { id: 6, name: 'Hub' },
+    { id: 6, name: '' },
   ];
 
   return (
