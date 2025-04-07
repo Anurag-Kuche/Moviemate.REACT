@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function HuluClone() {
-    const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";//
+    const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
     const [movieList, setMovieList] = useState([
         { id: 1, title: "Inception", poster_path: "/qJ2tW6WMUDux911r6m7haRef0WH.jpg", overview: "A mind-bending thriller" },
         { id: 2, title: "Interstellar", poster_path: "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg", overview: "Space adventure" },
